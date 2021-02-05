@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 Probability of detection under different testing schemes. See the pdf file in this repository for formal notation.
 ------------
 ```{r example, message=TRUE,warning=TRUE,eval=TRUE}
@@ -30,5 +25,5 @@ ap[3] + ap[4] * (1 - ap[3])
 # X = 3
 (ap[3] * (1 / 7))
 # X = 4
-((ap[3] * (1 / 7)) + ((1 - ap[3]) * (1 / 7)) * (ap[4] * (1 / 7)))
+((ap[3] * (1 / 7)) + (ap[4] * (1 / 7)))
 ```
