@@ -1,4 +1,4 @@
-Probability of detection under different testing schemes. See the pdf file in this repository for formal notation.
+Probability of detection under different testing schemes. See the `Appendix.pdf` file in this repository for formal notation.
 ------------
 ```{r example, message=TRUE,warning=TRUE,eval=TRUE}
 ap <- c(0, 0, 0.25, 0.5, 0.9, 0.9, 0.5) ## Probability of detection for individual A
